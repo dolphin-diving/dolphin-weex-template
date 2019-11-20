@@ -1,0 +1,36 @@
+{
+  "vetur.format.defaultFormatter.html": "js-beautify-html",
+  "vetur.format.defaultFormatterOptions": {
+    "js-beautify-html": {
+      "wrap_attributes": "force-expand-multiline"
+    },
+    "prettyhtml": {
+      "printWidth": 100,
+      "singleQuote": false,
+      "wrapAttributes": false,
+      "sortAttributes": false
+    }
+  },
+  //根据文件后缀名定义vue文件类型
+  "files.associations": {
+    "*.vue": "vue"
+  },
+  "eslint.options": {
+    "extensions": [".js", ".vue"]
+  },
+
+  //配置 ESLint 检查的文件类型
+  //确定校验准则
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    {
+      "language": "vue",
+      "autoFix": true
+    }
+  ],
+
+  "eslint.autoFixOnSave": true,
+  //保存自动格式化
+  "editor.formatOnSave": false
+}

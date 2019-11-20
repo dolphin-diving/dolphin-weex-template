@@ -1,0 +1,9 @@
+node_modules
+.next
+.temp
+configs
+dist
+build
+lib
+plugins
+web
