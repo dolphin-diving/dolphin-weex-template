@@ -56,7 +56,7 @@ module.exports = {
   }),
   methods: {
     jumpTo() {
-      let url = 'demo.js'
+      let url = 'welcome.js'
       this.$MID.route.push(url)
     },
     minibarRightButtonClick() {
