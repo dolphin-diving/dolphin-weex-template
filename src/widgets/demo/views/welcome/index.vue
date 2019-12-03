@@ -1,6 +1,6 @@
 <template>
   <div class="wrapper">
-    <dof-minibar title="欢迎社区" backgroundColor="transparent" textColor="#404040"> </dof-minibar>
+    <dof-minibar title="欢迎页" backgroundColor="transparent" textColor="#404040"> </dof-minibar>
     <div class="show-welcome margin-top-80">
       <text> {{ welcome }}</text>
     </div>
