@@ -21,7 +21,7 @@
     "serve": "cross-env CATE_NAME=demo webpack-dev-server --env.NODE_ENV=development --progress",
     "dev": "cross-env CATE_NAME=demo webpack --env.NODE_ENV=common --progress --watch",
     "build": "cross-env CATE_NAME=demo webpack --env.NODE_ENV=common",
-    "build:prod": "npm run clean:all && cross-env CATE_NAME=A8021 webpack --env.NODE_ENV=production && node configs/publish.js",
+    "build:prod": "npm run clean:all && cross-env CATE_NAME=demo webpack --env.NODE_ENV=production && node configs/publish.js",
     "build:prod:web": "cross-env CATE_NAME=demo webpack --env.NODE_ENV=release",
     "clean:all": "rimraf ./.temp && rimraf ./dist && rimraf ./release && rimraf ./publish && rimraf ./publish.zip",
     "lint": "eslint --ext .js,.vue src",
